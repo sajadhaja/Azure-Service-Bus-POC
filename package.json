@@ -1,14 +1,21 @@
 {
-    "name": "app-service-hello-world",
-    "description": "Simple Hello World Node.js sample for Azure App Service",
-    "version": "0.0.1",
-    "private": true,
-    "license": "MIT",
-    "author": "Microsoft",
-    "engines": {
-        "node": ">=6.9.1"
-    },
-    "scripts": {
-        "start": "node index.js"
-    }
+  "name": "app-service-hello-world",
+  "description": "Simple Hello World Node.js sample for Azure App Service",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Microsoft",
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "azure": "^2.2.1-preview",
+    "body-parser": "^1.13.2",
+    "cors": "^2.8.1",
+    "express": "^4.13.0",
+    "path": "^0.12.7"
+  }
 }
